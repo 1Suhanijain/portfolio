@@ -1,6 +1,11 @@
+import About from "./components/About";
+import Experience from "./components/Experience";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import { BrowserRouter } from "react-router-dom";
+import Tech from "./components/Tech";
+import Works from "./components/Works";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -11,9 +16,14 @@ function App() {
             <Navbar />
           </div>
           <Hero />
+          <About />
+          <Experience />
+          <Tech />
+          <Works />
+          <Contact />
           {/* </div> */}
           {/* <About />
-        <Experience />
+        // <Experience />
         <Tech />
         <Works />
         <Feedbacks /> */}
